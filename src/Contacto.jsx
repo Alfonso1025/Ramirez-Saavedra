@@ -19,15 +19,17 @@ function Contacto(){
     
     return(
         <div className="contact-wrapper">
+             <h2>Contacto</h2>
              <form  ref= {form} onSubmit={sendEmail} className="form">
+           
                 <div  className="input-grid">
-                    <input name="from_firstname" className="contact-input" type="text" placeholder="Firts name"/>
-                    <input name="from_lastname" className="contact-input" type="text" placeholder="Last Name"/>
-                    <input name="from_email"className="contact-input" type="email" placeholder="Email"/>
-                    <input name="company"className="contact-input" type="text" placeholder="Company"/>
+                    <input name="from_firstname" className="contact-input" type="text" placeholder="Nombre"/>
+                    <input name="from_lastname" className="contact-input" type="text" placeholder="Apellidos"/>
+                    <input name="from_email"className="contact-input" type="email" placeholder="Correo electronico"/>
+                    <input name="company"className="contact-input" type="text" placeholder="Tipo de asunto"/>
 
                 </div>
-                <textarea name="message" className="contact-message" placeholder="Message" ></textarea>
+                <textarea name="message" className="contact-message" placeholder="Escriba su mensaje" ></textarea>
                 <button className="button"  id="contact-button">
                     SEND MESSAGE
                 </button>

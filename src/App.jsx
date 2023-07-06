@@ -2,7 +2,7 @@
 import { useState } from "react"
 import Header from "./Header";
 import About from "./About";
-import Contact from "./Contacto";
+import Contacto from "./Contacto";
 import Practice from "./Practice";
 import Navbar from "./Navbar";
 import Trayectoria from "./Trayectoria,";
@@ -25,7 +25,7 @@ function App() {
          <Route path="/about" element={<About/>}/>
          <Route path="/areasdepractica" element={<Practice/>}/>
          <Route path="/trayectoria" element={<Trayectoria/>}/>
-         <Route path="/contacto" element={<Contact/>}/>
+         <Route path="/contacto" element={<Contacto/>}/>
       </Routes>
       <Footer/>
     </div>

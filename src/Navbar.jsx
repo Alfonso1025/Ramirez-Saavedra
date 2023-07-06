@@ -23,12 +23,7 @@ function Navbar(){
                 </Link>
                 <p className="nav-text">Trayectoria</p>
             </div>
-            <div  className="nav-item">
-                <Link to="/about">
-                   <AiOutlineUser style={{fontSize: '30px',color:'#a39f9fd1'}}/>
-                </Link>
-                <p className="nav-text">Acerca de</p>
-            </div>
+            
             <div className="nav-item">
                 <Link to="/areasdepractica">
                     <GoLaw style={{fontSize: '30px',color:'#a39f9fd1'}}/>
@@ -37,7 +32,7 @@ function Navbar(){
             </div>
 
             <div  className="nav-item">
-                <Link to="/contact">
+                <Link to="/contacto">
                     <AiOutlineMessage style={{fontSize: '30px',color:'#a39f9fd1'}}/>
                 </Link>
                 <p className="nav-text">Contacto</p>
