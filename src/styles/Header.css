@@ -16,7 +16,23 @@
     width: 100px; /* Adjust the size as needed */
     height: 100px; /* Adjust the size as needed */
     object-fit: cover;
+    margin-right: 4rem;
     
   }
  
+  @media (max-width: 500px) {
+    .header-wrapper{
+      flex-direction: column;
+      width: 80vw;
+    }
+    .logoName{
+      width: 100%;
+    }
+    .header-pic{
+     display: none;
+    }
+
+    
+  }
+  
   

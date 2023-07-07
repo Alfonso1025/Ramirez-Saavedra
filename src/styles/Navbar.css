@@ -21,3 +21,10 @@
     color: #666f9a;
 }
 /* #083033; */
+
+@media (max-width: 500px) {
+    .navbar-wrapper{
+        width: 85vw;
+    }
+    
+  }

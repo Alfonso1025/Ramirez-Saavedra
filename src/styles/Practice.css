@@ -4,6 +4,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-gap: 20px;
+    
   }
   .card-main {
     display: flex;
@@ -94,3 +95,9 @@
   
   /* Add any other custom styles as desired */
   
+  @media (max-width: 500px) {
+    .law-firm-area{
+        width: 80vw;
+    }
+    
+  }
