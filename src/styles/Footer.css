@@ -17,4 +17,15 @@
 }
 .copyright{
     color: #5cabbc;
+    
 }
+
+@media (max-width: 500px) {
+    .direccion{
+        width: 60vw;
+    }
+    .copyright{
+        width: 85vw;
+    }
+    
+  }
